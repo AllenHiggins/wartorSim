@@ -1,0 +1,48 @@
+﻿Project One CDD101: Concurrency
+
+Lecturer Joseph Kehoe
+
+Authors: Allen Higgins – Robert Scully
+
+Start Date: November 6, 2017
+
+1 Wator Simulation
+
+  You are required to implement the Wator simulation.
+  The full specification of this sim-ulation is provided in the accompanying document from the ”Mathematical Recreations column”.
+
+
+
+  The simulation will take 7 parameters:
+
+  NumShark: Starting population of sharks;
+
+  NumFish: Starting population of fish;
+
+  FishBreed: Number of time units that pass before a fish can reproduce;
+
+  SharkBreed: Number of time units that must pass before a shark can reproduce;
+
+  Starve: Period of time a shark can go without food before dying;
+
+  GridSize: Dimensions of world;
+
+  Threads: Number of threads to use.
+
+
+
+1.1 This Release is part of the Serial Implementation phase
+
+  A full serial implementation of the Wator simulation. Output can be ASCII based or graphical.
+
+
+Implementation Tools
+
+  • The project must be implemented in C++ on Linux using the g++ compiler and
+    emacs (or vi);
+
+    • Documention must be produced using Doxygen;
+
+    • A Makefile must be provied that compiles the project (debug and release versions),performs a clean up and creates the documentation by running Doxygen;
+
+    • The projects must be stored on Github - one github project for each team
